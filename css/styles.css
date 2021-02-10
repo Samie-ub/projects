@@ -1,0 +1,640 @@
+.fa-steam{
+padding: 10px 10px ;
+border-radius: 50px;
+background-color: rgb(0, 132, 255);
+border: 1px solid rgb(0, 132, 255);
+color: white;
+}
+
+.navbar-brand span{
+font-weight: 700;
+color:  rgb(0, 132, 255);
+}
+
+.first .fa-circle-o{
+    font-size: .7rem;
+background-color: rgb(0, 132, 255);
+    border-radius: 100px;
+border-radius: 100px;
+    position: relative;
+color: white;
+    left: 40px;
+}
+
+.carousel img{
+ height: 450px;   
+}
+
+.carousel-caption{
+text-align: left;
+left: 9%;
+bottom: 5.25rem;
+}
+
+.carousel-caption h3, .carousel-caption p{
+color: white;
+}
+
+.carousel-control-prev, .carousel-control-next{
+width: 3%;
+}
+
+.second{
+position: relative;
+}  
+
+
+.fa-circle{
+color: #0a99f8;
+}
+
+.second .circle-one::before{
+content: '  ';
+position: absolute;
+top: 153px;
+left: 683px;
+height: 1px;
+width: 60px;
+background-color: rgb(116, 114, 114);
+}
+
+.second .circle-one::after{
+content: '  ';
+position: absolute;
+top: 153px;
+right: 683px;
+height: 1px;
+width: 60px;
+background-color: rgb(116, 114, 114);
+}
+
+@media screen and (max-width:768px){
+ .second .circle-one::before{
+   left: 130px;
+   top: 145px;
+    }
+
+    .second .circle-one::after{
+   right: 130px;
+    top: 145px;
+    }
+}
+.second-content{
+padding: 10px 0px;
+}
+
+.background{
+background-color: rgb(206, 205, 205);
+}
+
+.items .fa{
+border: 1px solid gray;
+padding: 20px 20px;
+border-radius: 50px;
+color: rgb(19, 24, 27);
+font-size: 1.5rem;
+
+}
+
+.third{
+background-image: url(../images/pexels-francesco-ungaro-1671325.jpg);
+background-position: center;
+background-size: cover;
+color: white;
+}
+
+.third span{
+color: rgb(8, 123, 218);
+}
+
+.fourth{
+padding-bottom: 40px;
+}
+
+.fourth .circle-one::before{
+content: '  ';
+position: absolute;
+top: 58px;
+left: 683px;
+height: 1px;
+width: 60px;
+background-color: rgb(116, 114, 114);
+}
+
+.fourth .circle-one::after{
+content: '  ';
+position: absolute;
+top: 58px;
+right: 683px;
+height: 1px;
+width: 60px;
+background-color: rgb(116, 114, 114);
+}
+
+@media screen and (max-width:768px){
+    .fourth .circle-one::before{
+ left: 130px;
+ top: 49px;
+  }
+
+  .fourth .circle-one::after{
+ right: 130px;
+  top: 49px;
+  }
+}
+
+.second-content{
+padding: 10px 0px;
+}
+
+.items-fourth{
+width: 70%;
+}
+
+.fifth .circle-one::before{
+content: '  ';
+position: absolute;
+top: 154px;
+left: 683px;
+height: 1px;
+width: 60px;
+background-color: rgb(116, 114, 114);
+}
+
+.fifth .circle-one::after{
+content: '  ';
+position: absolute;
+top: 154px;
+right: 683px;
+height: 1px;
+width: 60px;
+background-color: rgb(116, 114, 114);
+}
+
+@media screen and (max-width:768px){
+    .fifth .circle-one::before{
+ left: 130px;
+ top: 145px;
+  }
+
+  .fifth .circle-one::after{
+ right: 130px;
+ top: 145px;
+  }
+}
+
+.fifth-content img{
+width: 100%;
+}
+
+.sixth{
+padding-bottom: 30px;
+}
+.sixth .circle-one::before{
+content: '  ';
+position: absolute;
+top: 154px;
+left: 683px;
+height: 1px;
+width: 60px;
+background-color: rgb(116, 114, 114);
+}
+
+.sixth .circle-one::after{
+content: '  ';
+position: absolute;
+top: 154px;
+right: 683px;
+height: 1px;
+width: 60px;
+background-color: rgb(116, 114, 114);
+}
+
+@media screen and (max-width:768px){
+    .sixth .circle-one::before{
+ left: 130px;
+ top: 145px;
+  }
+
+  .sixth .circle-one::after{
+ right: 130px;
+ top: 145px;
+  }
+}
+
+.sixth-content video{
+width: 100%;
+border: 0;
+}
+
+.fa-check-square{
+color: rgb(8, 123, 218);
+}
+
+.seventh{
+background-image: url(../images/pexels-kasuma-1785493.jpg);
+background-position: center;
+background-size: cover;
+color: white;
+padding-bottom: 40px;
+}
+
+.seventh .fa-circle{
+border: 3px solid white;
+border-radius: 50px;
+padding: 0px 2px;
+
+}
+
+.seventh .circle-one::before{
+content: '  ';
+position: absolute;
+top: 121px;
+left: 683px;
+height: 1px;
+width: 60px;
+background-color: white;
+}
+
+.seventh .circle-one::after{
+content: '  ';
+position: absolute;
+top: 121px;
+right: 683px;
+height: 1px;
+width: 60px;
+background-color: white;
+}
+
+@media screen and (max-width:768px){
+    .seventh .circle-one::before{
+ left: 127px;
+ top: 112px;
+  }
+
+  .seventh .circle-one::after{
+    right: 127px;
+    top: 112px;
+  }
+}
+
+.seventh-icons{
+margin-right: 90px;
+margin-left: 30px;
+}
+
+@media screen and (max-width:780px){
+    .seventh-icons{
+margin-right: 37px;
+margin-left: 30px;
+}
+}
+
+.seventh-icons .fa{
+border: 2px solid #0a99f8;
+padding: 20px 20px;
+border-radius: 50px;
+font-size: 1.5rem;
+}
+
+.seventh-icons span{
+border: 2px solid #0a99f8;
+padding: 1px 6px;
+border-radius: 50px;
+background-color: white;
+color: black;
+font-size: .8rem;
+position: relative;
+bottom: 114px;
+left: 3px;
+
+}
+
+.eighth .circle-one::before{
+content: '  ';
+position: absolute;
+top: 122px;
+left: 683px;
+height: 1px;
+width: 60px;
+background-color: rgb(116, 114, 114);
+}
+
+.eighth .circle-one::after{
+content: '  ';
+position: absolute;
+top: 122px;
+right: 683px;
+height: 1px;
+width: 60px;
+background-color: rgb(116, 114, 114);
+}
+
+.card-body .fa{
+ color: white;
+ padding: 8px 15px;
+}
+
+@media screen and (max-width: 768px){
+    .eighth-card{
+   display:none;
+   
+    }
+
+    .card .bg-light .me-lg-4 .me-sm-2{
+width: 23rem;
+    }
+    .eighth-btn-group{
+   margin-left: 50px;
+   
+    }
+
+.eghth .circle-one::before{
+left: 130px;
+top: 113px;
+  }
+
+  .eighth .circle-one::after{
+    right: 130px;
+    top: 113px;
+  }
+}
+
+.ninth{
+background-color: black;
+color: white;
+}
+
+.ninth .fa-circle{
+border: 3px solid white;
+border-radius: 100px;
+padding: 0px 1px;
+}
+
+.ninth .circle-one::before{
+content: '  ';
+position: absolute;
+top: 122px;
+left: 683px;
+height: 1px;
+width: 60px;
+background-color: white;
+}
+
+.ninth .circle-one::after{
+content: '  ';
+position: absolute;
+top: 122px;
+right: 683px;
+height: 1px;
+width: 60px;
+background-color: white;
+}
+
+.ninth-items p{
+display: inline;
+border: 1px solid white;
+padding: 35px 25px;
+border-radius: 50px;
+font-size: 1.4rem;
+}
+
+@media screen and (max-width: 768px){
+    .ninth-items{
+   margin-top: 50px;
+    }
+
+    .ninth .circle-one::before{
+left: 132px;
+top: 113px;
+ }
+
+  .ninth .circle-one::after{
+right: 132px;
+ top: 113px;
+ }
+
+}
+
+.tenth{
+padding-bottom: 50px;
+}
+
+.tenth .circle-one::before{
+content: '  ';
+position: absolute;
+top: 122px;
+left: 683px;
+height: 1px;
+width: 60px;
+background-color: rgb(116, 114, 114);
+}
+
+.tenth .circle-one::after{
+content: '  ';
+position: absolute;
+top: 122px;
+right: 683px;
+height: 1px;
+width: 60px;
+background-color: rgb(116, 114, 114);
+}
+
+.card .tenth-card  .pb-4 .me-4 .bg-dark .text-light{
+    width:20rem;
+}
+
+@media screen and (max-width:780px){
+    .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+width: 90%;
+    }
+    .card .tenth-card  .pb-4 .me-4 .bg-dark .text-light{
+width: 23rem;
+margin-top: 41px;
+margin-left: 0px;
+    }
+
+    .tenth .circle-one::before{
+   left: 132px;
+   top: 113px;
+    }
+
+    .tenth .circle-one::after{
+   right: 132px;
+    top: 113px;
+    }
+}
+
+.tenth-header {
+padding:0px 0px 10px 0px ;
+position: relative;
+bottom: 55px;
+}
+
+.container .header{
+height: 150px;
+}
+
+.container .cirlce-tenth{
+border: 5px solid white;
+color: white;
+background-color: #0a99f8;
+width: 60%;
+border-radius: 100px;
+padding: 43px 15px;
+position: relative;
+bottom: 79px;
+left: 50px;
+}
+
+.eleventh{
+background-image: url(../images/brad-neathery-248309-unsplash.jpg);
+background-size: cover;
+color: white;
+}
+
+@media screen and (max-width:768px){
+    .eleventh img{
+   width: 25%;
+   margin-bottom: 10px;
+    }
+}
+
+
+.small-text{
+font-size: 1rem;
+}
+
+.overlay{
+background-color: rgba(0, 0, 0, 0.534);
+}
+
+.eleventh img{
+border: 5px solid white;
+border-radius: 50px;
+}
+
+.twelevth .circle-one::before{
+content: '  ';
+position: absolute;
+top: 122px;
+left: 683px;
+height: 1px;
+width: 60px;
+background-color: rgb(116, 114, 114);
+}
+
+.twelevth .circle-one::after{
+content: '  ';
+position: absolute;
+top: 122px;
+right: 683px;
+height: 1px;
+width: 60px;
+background-color: rgb(116, 114, 114);
+}
+
+@media screen and (max-width: 768px){
+
+    .twelevth-card{
+width: 5%;
+ }
+    .twelevth .circle-one::before{
+left: 131px;
+top: 113px;
+ }
+
+  .twelevth .circle-one::after{
+right: 131px;
+ top: 113px;
+ }
+}
+
+
+.thirteenth{
+background-color: #066fb4;
+color: white;
+}
+
+.thirteenth .fa-circle{
+border: 3px solid white;
+border-radius: 50px;
+padding: 0px 2px;
+}
+
+.thirteenth .circle-one::before{
+content: '  ';
+position: absolute;
+top: 122px;
+left: 683px;
+height: 1px;
+width: 60px;
+background-color: white;
+}
+
+.thirteenth .circle-one::after{
+content: '  ';
+position: absolute;
+top: 122px;
+right: 683px;
+height: 1px;
+width: 60px;
+background-color: white;
+}
+
+@media screen and (max-width: 768px){
+    .thirteenth .circle-one::before{
+left: 127px;
+top: 113px;
+ }
+
+  .thirteenth .circle-one::after{
+right: 127px;
+ top: 113px;
+ }
+}
+
+.lastcard-2 .col-12{
+padding: 5px 20px;
+width: 114%;
+}
+
+.lastcard-2 .last-image{
+margin-right: 0;
+}
+.lastcard-2 h6{
+font-size: .9rem;
+text-transform: uppercase;
+}
+
+.lastcard-2 h5{
+font-size: .9rem;
+}
+
+.lastcard-2 p{
+font-size: .9rem;
+}
+
+.fa-copyright{
+font-size: small;
+}
+
+.span-last{
+color: white;
+}
+
+.second-last iframe { 
+position: absolute; 
+float: left; 
+clear: both;
+width: 100%; 
+height: 555px; 
+z-index: 0; 
+left: no-repeat;
+}
+
+.last-card{
+    top: 45px;
+    left: 900px;
+    background-color: transparent;
+}
